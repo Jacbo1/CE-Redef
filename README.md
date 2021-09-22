@@ -11,7 +11,7 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 
 ![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/Screenshot.png)  
 
-Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this to apply the +30 bulk.
+Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this to apply the +30 bulk capacity.
 
 ## How to use
 [Java](https://www.java.com/en/) is required.  
