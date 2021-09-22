@@ -12,7 +12,8 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 ![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/Screenshot.png)  
 
 ## How to use
-[Java](https://www.java.com/en/) is required.
+[Java](https://www.java.com/en/) is required.  
+Safe to use mid-save but make sure to restore the values before deleting.
 1. Set the Combat Extended directory to the location of the mod. It will typically be C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1631756268\
 2. Set the location of the backup file. This is required to both restore and redefine.
 3. Once you have your multipliers set, check "Redefine" and click the button at the bottom.
