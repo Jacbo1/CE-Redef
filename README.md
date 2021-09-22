@@ -20,6 +20,7 @@ Safe to use mid-save but make sure to restore the values before deleting.
 2. Set the location of the backup file. This is required to both restore and redefine.
 3. Once you have your multipliers set, check "Redefine" and click the button at the bottom.
 
+If you use [RimPy](https://steamcommunity.com/sharedfiles/filedetails/?id=1847679158), you can find Combat Extended there, right click it, and click "Open Folder" to get the CE directory.  
 If you want to change the multipliers again, you can just redefine it again without restoring first.  
 Restoring reverts all multiplied values.
 If set to backup and there is an existing backup file, it will warn you if it is for the same version of Combat Extended because it may be modified values that would be saved and overwrite the original backup.  
