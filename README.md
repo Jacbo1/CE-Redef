@@ -11,6 +11,8 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 
 ![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/Screenshot.png)  
 
+Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this.
+
 ## How to use
 [Java](https://www.java.com/en/) is required.  
 Safe to use mid-save but make sure to restore the values before deleting.
