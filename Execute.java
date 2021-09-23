@@ -70,7 +70,9 @@ public class Execute implements Runnable {
             new File(backup_path).delete();
             new File(backup_path).createNewFile();
             Ini backup = new Ini(new File(backup_path));
-            backup.put("version", "version", version);
+            if(version != null){
+            	backup.put("version", "version", version);
+            }
             backup(backup, new File(ce_dir + "Patches\\"), "Patches/");
             backup(backup, new File(ce_dir + "Defs\\"), "Defs/");
             backup.store();
