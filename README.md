@@ -16,7 +16,7 @@ Note for modders: This will ignore values within \<equippedStatOffsets> tags for
 ## How to use
 [Java](https://www.java.com/en/) is required.  
 Safe to use mid-save but make sure to restore the values before deleting.
-1. Set the Combat Extended directory to the location of the mod. It will typically be C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1631756268\
+1. Set the Combat Extended directory to the location of the mod. It will typically be C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1631756268\ if it was downloaded from the workshop or C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CombatExtended\ if was installed manually.
 2. Set the location of the backup file. This is required to both restore and redefine.
 3. Once you have your multipliers set, check "Redefine" and click the button at the bottom.
 
