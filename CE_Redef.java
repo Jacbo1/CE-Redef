@@ -35,7 +35,7 @@ import java.io.PrintWriter;
 import java.nio.file.Paths;
 
 public class CE_Redef {
-	static public String version = "1.1";
+	static public String version = "1.2";
 	static JFrame frame;
 	private static Ini config;
 	private static JProgressBar progress_bar;
