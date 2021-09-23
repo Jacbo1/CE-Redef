@@ -35,7 +35,7 @@ import java.io.PrintWriter;
 import java.nio.file.Paths;
 
 public class CE_Redef {
-	static public String version = "1.0";
+	static public String version = "1.1";
 	static JFrame frame;
 	private static Ini config;
 	private static JProgressBar progress_bar;
@@ -166,6 +166,7 @@ public class CE_Redef {
 							File selection = fc.getSelectedFile();
 							String new_path = selection.getAbsolutePath() + "\\";
 							if(new File(new_path).exists() && new_path.endsWith("\\") && new File(new_path + "Patches\\").exists() && new File(new_path + "Defs\\").exists()){
+								ceVersion = null;
 								countFiles();
 								ce_dir = new_path;
 								config.put("prog data", "ce", ce_dir);
@@ -235,6 +236,7 @@ public class CE_Redef {
 							&& new File(text + "Patches\\").exists()
 							&& new File(text + "Defs\\").exists()
 							&& new File(text + "About\\Manifest.xml").exists()){
+						ceVersion = null;
 						config.put("dirs", "cedir", ce_dir);
 						try{
 							config.store();
