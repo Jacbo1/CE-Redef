@@ -10,7 +10,7 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 * Melee cooldown (\<cooldownTime>)
 * Warmup time (\<warmupTime>)
 
-![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/Screenshot%201.2.png)  
+![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/JDK-17/Screenshot%201.2.png)  
 
 Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this to apply the +30 bulk capacity.
 
