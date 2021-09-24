@@ -35,7 +35,7 @@ import java.io.PrintWriter;
 import java.nio.file.Paths;
 
 public class CE_Redef {
-	static public String version = "1.2";
+	static public String version = "1.1";
 	static JFrame frame;
 	private static Ini config;
 	private static JProgressBar progress_bar;
@@ -721,11 +721,13 @@ public class CE_Redef {
 								executor_thread.start();
 							}
 							progress_bar.setValue(executor.file_index);
+							progress_bar.setString(executor.file_index * 100 / progress_bar.getMaximum() + "%");
 							frame.repaint();
 							if(!executor.running){
 								System.out.println("Done");
 								timer.stop();
 								progress_bar.setValue(progress_bar.getMaximum());
+								progress_bar.setString("100%");
 								running = false;
 								toggleInputs(true);
 								setRunButton();
@@ -739,6 +741,7 @@ public class CE_Redef {
 			// Create progress display
 			progress_bar = new JProgressBar();
 			progress_bar.setStringPainted(true);
+			progress_bar.setString("0%");
 
 			// Create disclaimer
 			JLabel disclaimer = new JLabel("If some weapons don't react to changes in these multipliers, they may not have the tags this looks for");
