@@ -1,4 +1,5 @@
 # CE Redef
+This whole project is pending a rewrite in a different language like C# to make it work better and easier to use.  
 This is the JRE 8 compatible version. The [JDK 17](https://github.com/Jacbo1/CE-Redef/tree/JDK-17) version has a fixed GUI and is faster, but installing JDK 17 can cause older .jars to not function. The improvements for the JDK 17 version cannot be applied to this version because they come from JDK 17 itself.  
 Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1631756268) ([GitHub](https://github.com/CombatExtended-Continued/CombatExtended)) statistics with global multipliers. The multipliers are
 * Bulk (\<bulk>)
