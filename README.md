@@ -1,6 +1,5 @@
 # CE Redef
-This whole project is pending a rewrite in a different language like C# to make it work better and easier to use.  
-This is the JRE 8 compatible version. The [JDK 17](https://github.com/Jacbo1/CE-Redef/tree/JDK-17) version has a fixed GUI and is faster, but installing JDK 17 can cause older .jars to not function. The improvements for the JDK 17 version cannot be applied to this version because they come from JDK 17 itself.  
+Now rewritten in C#.  
 Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1631756268) ([GitHub](https://github.com/CombatExtended-Continued/CombatExtended)) statistics with global multipliers. The multipliers are
 * Bulk (\<bulk>)
 * Carry bulk (\<CarryBulk>)
@@ -16,7 +15,7 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this to apply the +30 bulk capacity.
 
 ## How to use
-[Java](https://www.java.com/en/) is required.  
+The [.NET Framework](https://dotnet.microsoft.com//) is required.  
 Safe to use mid-save but make sure to restore the values before deleting.
 1. Set the Combat Extended directory to the location of the mod. It will typically be C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1631756268\ if it was downloaded from the workshop or C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CombatExtended\ if was installed manually.
 2. Set the location of the backup file. This is required to both restore and redefine.
@@ -28,5 +27,3 @@ Restoring reverts all multiplied values.
 If set to backup and there is an existing backup file, it will warn you if it is for the same version of Combat Extended because it may be modified values that would be saved and overwrite the original backup.  
   
 If the stats for some items/weapons don't change, they most likely do not have the tags this looks for.
-
-This program uses [ini4j](http://ini4j.sourceforge.net/)
