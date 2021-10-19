@@ -1,5 +1,6 @@
 # CE Redef
 Now rewritten in C#.  
+The [.NET Framework](https://dotnet.microsoft.com//) is required.  
 Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1631756268) ([GitHub](https://github.com/CombatExtended-Continued/CombatExtended)) statistics with global multipliers. The multipliers are
 * Bulk (\<bulk>)
 * Carry bulk (\<CarryBulk>)
@@ -10,12 +11,11 @@ Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1
 * Melee cooldown (\<cooldownTime>)
 * Warmup time (\<warmupTime>)
 
-![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/Screenshot%201.1.png)  
+![Screenshot](https://github.com/Jacbo1/CE-Redef/blob/main/screenshot.png?raw=true)  
 
 Note for modders: This will ignore values within \<equippedStatOffsets> tags for example the tactical vest and backpacks use this to apply the +30 bulk capacity.
 
 ## How to use
-The [.NET Framework](https://dotnet.microsoft.com//) is required.  
 Safe to use mid-save but make sure to restore the values before deleting.
 1. Set the Combat Extended directory to the location of the mod. It will typically be C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1631756268\ if it was downloaded from the workshop or C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\CombatExtended\ if was installed manually.
 2. Set the location of the backup file. This is required to both restore and redefine.
