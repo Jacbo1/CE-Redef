@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -27,7 +27,7 @@ namespace CE_Redef
             backupVersion;
         private int progressBarMaxQueue = -1,
             progressBarValueQueue = -1;
-        private Boolean executeFinished;
+        private bool executeFinished;
 
         public Window()
         {
@@ -83,7 +83,7 @@ namespace CE_Redef
         }
 
         // Normalizes the path
-        private string FixPath(string path, Boolean isDir)
+        private string FixPath(string path, bool isDir)
         {
             try
             {
@@ -320,7 +320,7 @@ namespace CE_Redef
         }
 
         // Check if the Combat Extended directory is valid
-        private Boolean CheckCEDir(string dir)
+        private bool CheckCEDir(string dir)
         {
             return Directory.Exists(dir) &&
                 Directory.Exists(dir + @"Patches\") &&
@@ -329,7 +329,7 @@ namespace CE_Redef
         }
 
         // Check if the backup output is valid
-        private Boolean CheckBackup(string path)
+        private bool CheckBackup(string path)
         {
             if (!path.EndsWith(".txt"))
             {
@@ -421,7 +421,7 @@ namespace CE_Redef
             }
 
             // Check if backup file exists
-            Boolean backupExists = backupPath.EndsWith(".txt") && File.Exists(backupPath);
+            bool backupExists = backupPath.EndsWith(".txt") && File.Exists(backupPath);
 
             switch (mode)
             {
@@ -609,7 +609,7 @@ namespace CE_Redef
             }
         }
 
-        private void ToggleInteractability(Boolean enabled)
+        private void ToggleInteractability(bool enabled)
         {
             ceDirButton.Enabled = enabled;
             ceDirTB.Enabled = enabled;
