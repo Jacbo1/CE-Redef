@@ -1,6 +1,6 @@
 # CE Redef
 Now rewritten in C#.  
-The [.NET Framework](https://dotnet.microsoft.com//) is required.  
+[.NET 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-web-installer) is required.  
 Redefine [Combat Extended](https://steamcommunity.com/workshop/filedetails/?id=1631756268) ([GitHub](https://github.com/CombatExtended-Continued/CombatExtended)) statistics with global multipliers. The multipliers are
 * Bulk (\<bulk>)
 * Carry bulk (\<CarryBulk>)
